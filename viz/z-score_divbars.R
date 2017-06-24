@@ -1,5 +1,4 @@
-#### Diverging bars
-# http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
+# Diverging bars (z-score)
 
 library(ggplot2)
 library(plyr)
@@ -55,3 +54,4 @@ ggplot(divbar.mdata, aes(x=variable, y=mdata_z, label=mdata_z)) +
   ylab(" ")+
   coord_flip()
 
+# http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html
