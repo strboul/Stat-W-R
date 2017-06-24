@@ -5,4 +5,4 @@ Describing statistical codes with R programming language.
 + _Descriptive statistics_
 + _Inferential statistics_
 + _Predictive statistics_
-#### + And more...
++ _..._
