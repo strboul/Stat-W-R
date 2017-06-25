@@ -1,5 +1,8 @@
 ### INSTALL/UPDATE PACKAGES ##
-# install.packages("tidyverse")
+install.packages("tidyverse")
+
+### UPDATE ALL PACKAGES
+update.packages(ask=FALSE, checkBuilt = TRUE)
 
 
 ### LOAD LIBRARIES ###
