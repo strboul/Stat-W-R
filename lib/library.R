@@ -18,3 +18,8 @@ library(car) # For recode variables reversely
 library(psych)
 library(matrixStats) # High-performing functions operating on rows and columns of matrices
 library(colorspace) # For ggplot colors
+
+### EXTRA LIBRARIES ###
+# Minimal reproducible example or Minimal working example (MWE)
+install.packages("reprex")
+library(reprex)
