@@ -4,6 +4,8 @@ install.packages("tidyverse")
 ### UPDATE ALL PACKAGES
 update.packages(ask=FALSE, checkBuilt = TRUE)
 
+### UPDATE ONLY IN TIDYVERSE
+tidyverse_update()
 
 ### LOAD LIBRARIES ###
 library(tidyverse) #
