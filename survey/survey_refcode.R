@@ -234,7 +234,7 @@ cor.plot(validx, numbers=TRUE, cex.axis=0.6, main=" ") #Correlation plot with 'p
 
 ## ---------- VISUALIZATION
 
-## ---------- WAFFLE CHART (instead of pie chart)
+### ---------- WAFFLE CHART (instead of pie chart)
 # devtools::install_github("hrbrmstr/waffle") #Install package from github
 # NOTE: There is a better waffle chart inside ggplot2 (06/2017)
 library(waffle)
