@@ -1,3 +1,5 @@
+#Basic text analysis with tweet data obtained via twitteR
+
 library(devtools)
 library(twitteR)
 
