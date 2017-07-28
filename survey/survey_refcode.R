@@ -1,6 +1,8 @@
 # SURVEY ANALYSIS
 # (REFERENCE CODE)
 
+## packagename::functionname() #Specifying the package you want to use
+
 # ---------- SURVEY DATAFRAME
 header_main_surveyx <- scan("~/Survey_Data_R/csv_data/Social_Privacy_on_Facebook.csv", nlines = 1, what = character (), sep = ",") # Extract only headers
 data_main_surveyx <- read.csv("~/Survey_Data_R/csv_data/Social_Privacy_on_Facebook.csv", skip = 2, header = FALSE, sep = ",") # Extract only data, w/out headers ## If the file is .txt, use "read.table()"; if not, use "read.csv()"
