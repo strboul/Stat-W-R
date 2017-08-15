@@ -1,0 +1,20 @@
+### Sample random df
+dats <- data.frame(x = rnorm(10), y = runif(10))
+
+### Sample manual df
+s.ab1 <- c(21,22,23)
+s.ab2 <- c("xx","yy","zz")
+s.ab.id <- c(97,98,99)
+
+ab <- data.frame(cbind(s.ab1, s.ab2, s.ab.id))
+colnames(ab) <- c("ab1", "ab2", "id")
+
+s.df1 <- c(1,2,3)
+s.df2 <- c("a","b","c")
+s.df.id <- c(97,98,99)
+
+df <- data.frame(cbind(s.df1, s.df2, s.df.id))
+colnames(df) <- c("df1", "df2", "id")
+
+### Merging
+m1 <- merge(x=ab, y=df, by="id")
